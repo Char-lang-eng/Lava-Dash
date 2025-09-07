@@ -1,3 +1,4 @@
+let state = 1
 let square = []
 let tick = Date.now()
 let squareSize
