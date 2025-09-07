@@ -1,0 +1,10 @@
+
+height: 100%;
+width: 100%;
+}
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}  
