@@ -1,4 +1,5 @@
-  constructor(number){
+class Square{
+constructor(number){
     this.number = number
     this.x = number%10/10
     this.y = floor(number/10)/10
