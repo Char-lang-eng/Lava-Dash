@@ -192,6 +192,4 @@ function keyPressed(){
     tick = Date.now()
     whooshS.play()
   }
-  
-}                                                                                                                                                                                                                  app/square.js                                                                                       0000644 1305210 1305210 00000003336 14613155110 010414  0                                                                                                    ustar                                                                                                                                                                                                                                                          class Square{
-
+}
