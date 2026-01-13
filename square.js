@@ -55,7 +55,12 @@ constructor(number){
       this.danger--
     }
     if(place == this.number && this.danger > 0 && this.danger < 5){
-      lives--
+      if(this.danger == 4){
+          lives -= 3
+      }
+      else{
+          lives -= this.danger
+      }
       if(lives == 0){
         buzzerS.play()
       }
