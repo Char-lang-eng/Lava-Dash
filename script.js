@@ -20,7 +20,7 @@ let whooshS
 let guyI
 let danger0I
 function preload(){
-  buzzerS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/buzzer-4-183895.mp3?v=1711610760130")
+  buzzerS = loadSound("")
   mineS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/notification-sound-7062.mp3?v=1711666091596")
   hitS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/bullet-impacting-body-gamemaster-audio-2-2-00-00.mp3?v=1711666380873")
   coinS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/video-game-bonus-wooden-chime-gamemaster-audio-1-00-00.mp3?v=1711666937325")
@@ -28,12 +28,11 @@ function preload(){
   
   guyI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel%20(1).gif?v=1713874051760")
   dangI = loadImage("floor-0.png")
-  dangiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-2.png.png?v=1713875094408")
-  dangiiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-3.png.png?v=1713875109654")
-  dangiiiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-4.png%20(1).png?v=1713875465748")
-  spikesI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-1.png%20(11).png?v=1713876282070")
-  starI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-1.png%20(12).png?v=1713877147449")
-  homeI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-1.png.png?v=1724596602699")
+  dangiI = loadImage("floor-1.png")
+  dangiiI = loadImage("floor-2.png")
+  dangiiiI = loadImage("floor-3.png")
+  spikesI = loadImage("floor-4")
+  starI = loadImage("floor-5")
 }
 function setup(){
   coinS.setVolume(0.25)
@@ -146,7 +145,6 @@ function draw(){
     for(let i = 0; i<100; i++){
       square[i].draw()
     }
-    image(homeI, 0, 0, squareSize, squareSize)
   }
 }
 function keyPressed(){
