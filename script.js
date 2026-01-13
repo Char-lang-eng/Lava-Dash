@@ -20,19 +20,19 @@ let whooshS
 let guyI
 let danger0I
 function preload(){
-  buzzerS = loadSound("")
-  mineS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/notification-sound-7062.mp3?v=1711666091596")
-  hitS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/bullet-impacting-body-gamemaster-audio-2-2-00-00.mp3?v=1711666380873")
-  coinS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/video-game-bonus-wooden-chime-gamemaster-audio-1-00-00.mp3?v=1711666937325")
-  whooshS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/notification-whoosh-boom-the-foundation-1-00-04.mp3?v=1711721727080")
+  buzzerS = loadSound("buzzer.mp3")
+  mineS = loadSound("round.mp3")
+  hitS = loadSound("hit.mp3")
+  coinS = loadSound("point.mp3")
+  whooshS = loadSound("start.mp3")
   
-  guyI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel%20(1).gif?v=1713874051760")
+  guyI = loadImage("floor-5.png")
   dangI = loadImage("floor-0.png")
   dangiI = loadImage("floor-1.png")
   dangiiI = loadImage("floor-2.png")
   dangiiiI = loadImage("floor-3.png")
-  spikesI = loadImage("floor-4")
-  starI = loadImage("floor-5")
+  spikesI = loadImage("floor-4.png")
+  starI = loadImage("floor-5.png")
 }
 function setup(){
   coinS.setVolume(0.25)
