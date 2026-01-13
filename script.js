@@ -37,9 +37,9 @@ function preload(){
 }
 function setup(){
   coinS.setVolume(0.4)
-  buzzerS.setVolume(0.5)
+  buzzerS.setVolume(1)
   whooshS.setVolume(0.7)
-  hitS.setVolume(1)
+  hitS.setVolume(2)
   createCanvas(windowWidth, windowHeight)
   squareSize = min(width, height*0.8)
   for(let i = 0; i < 100; i++){
