@@ -6,7 +6,7 @@ let place = 0
 let velocity = 1
 let difficulty = 50
 let round = 0
-let lives = 4
+let lives = 8
 let alternate = 0
 let count = 0
 let points = 0
@@ -144,7 +144,7 @@ function draw(){
       if(lives == i){
         fill(100, 0, 0)
       }
-      rect((0.4+0.125*i)*squareSize, 0.85*height, 0.065*squareSize, 0.03*height, 10)
+      rect((0.4+0.065*i)*squareSize, 0.85*height, 0.065*squareSize, 0.03*height, 10)
     }
     for(let i = 0; i<100; i++){
       square[i].draw()
@@ -182,7 +182,7 @@ function keyPressed(){
   }
   if(state == 1){
     state = 0
-    lives = 4
+    lives = 8
     for(let i = 0; i < 100; i++){
       square[i].chance = 0.3
       square[i].danger = 0
