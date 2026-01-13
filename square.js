@@ -61,8 +61,9 @@ constructor(number){
       else{
           lives -= this.danger
       }
-      if(lives == 0){
+      if(lives <= 0){
         buzzerS.play()
+        lives = 0
       }
       hitS.play()
       alternate = 50
