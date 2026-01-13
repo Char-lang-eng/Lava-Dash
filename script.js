@@ -72,7 +72,7 @@ function draw(){
           count++
         }
       }
-      while(count < min(round+1, 7)){
+      while(count < min(round+1, 7) && round >= 1){
         square[floor(random(0, 100))].danger = 5
         count++
       }
