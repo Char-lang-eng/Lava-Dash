@@ -39,7 +39,7 @@ function setup(){
   coinS.setVolume(0.4)
   buzzerS.setVolume(0.5)
   whooshS.setVolume(0.7)
-  hitS.setVolume(0.7)
+  hitS.setVolume(1)
   createCanvas(windowWidth, windowHeight)
   squareSize = min(width, height*0.8)
   for(let i = 0; i < 100; i++){
