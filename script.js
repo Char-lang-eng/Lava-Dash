@@ -50,7 +50,7 @@ function draw(){
   if(state == 0){
     background(255)
     fill(0, 255, 0)
-    for(i=0; i<4; i++){
+    for(i=0; i<8; i++){
       if(lives == i){
         fill(100, 0, 0)
       }
