@@ -27,6 +27,7 @@ function preload(){
   whooshS = loadSound("start.mp3")
   
   guyI = loadImage("man.gif")
+  stillI = loadImage("stillman.png")
   dangI = loadImage("floor-0.png")
   dangiI = loadImage("floor-1.png")
   dangiiI = loadImage("floor-2.png")
