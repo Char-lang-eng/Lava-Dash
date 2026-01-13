@@ -54,7 +54,7 @@ function draw(){
       if(lives == i){
         fill(100, 0, 0)
       }
-      rect((0.4+0.125*i)*squareSize, 0.85*height, 0.125*squareSize, 0.05*height, 10)
+      rect((0.4+0.065*i)*squareSize, 0.85*height, 0.065*squareSize, 0.03*height, 10)
     }
     fill(0)
     rect(0.1*squareSize, 0.95*height, 0.8*squareSize, 0.02*height, 10)
@@ -166,7 +166,7 @@ function keyPressed(){
       velocity = -1
     }
     if(lives == 0 && alternate < 1){
-      lives = 4
+      lives = 8
       for(let i = 0; i < 100; i++){
         square[i].chance = 0.3
         square[i].danger = 0
