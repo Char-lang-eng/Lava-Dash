@@ -26,7 +26,7 @@ function preload(){
   coinS = loadSound("point.mp3")
   whooshS = loadSound("start.mp3")
   
-  guyI = loadImage("floor-5.png")
+  guyI = loadImage("man.png")
   dangI = loadImage("floor-0.png")
   dangiI = loadImage("floor-1.png")
   dangiiI = loadImage("floor-2.png")
