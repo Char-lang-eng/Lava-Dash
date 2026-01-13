@@ -27,7 +27,7 @@ function preload(){
   whooshS = loadSound("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/notification-whoosh-boom-the-foundation-1-00-04.mp3?v=1711721727080")
   
   guyI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel%20(1).gif?v=1713874051760")
-  dangI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-1.png%20(10).png?v=1713873448099")
+  dangI = loadImage("floor-0.png")
   dangiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-2.png.png?v=1713875094408")
   dangiiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-3.png.png?v=1713875109654")
   dangiiiI = loadImage("https://cdn.glitch.global/6ef1970c-3ffc-4c71-a129-ea1927162da4/New%20Piskel-4.png%20(1).png?v=1713875465748")
