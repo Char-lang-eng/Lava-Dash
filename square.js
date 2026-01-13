@@ -36,7 +36,12 @@ constructor(number){
     }
     if(place == this.number){
       if(alternate%8 < 4){
-        image(guyI, (this.x-0.018)*squareSize, (this.y-0.01)*squareSize, squareSize/8, squareSize/8)
+        if(state == 1){
+            image(stillI, (this.x-0.018)*squareSize, (this.y-0.01)*squareSize, squareSize/8, squareSize/8)
+        }
+        else{
+            image(guyI, (this.x-0.018)*squareSize, (this.y-0.01)*squareSize, squareSize/8, squareSize/8)
+        }
       }
       if(this.danger == 5){
         points++
