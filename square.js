@@ -59,9 +59,7 @@ constructor(number){
       if(lives == 0){
         buzzerS.play()
       }
-      else{
-        hitS.play()
-      }
+      hitS.play()
       alternate = 50
     }
   }
