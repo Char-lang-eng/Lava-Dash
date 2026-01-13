@@ -54,7 +54,7 @@ function draw(){
       if(lives == i){
         fill(100, 0, 0)
       }
-      rect((0.4+0.065*i)*squareSize, 0.87*height, 0.065*squareSize, 0.03*height, 10)
+      rect((0.4+0.065*i)*squareSize, 0.86*height, 0.065*squareSize, 0.03*height, 10)
     }
     fill(0)
     rect(0.1*squareSize, 0.95*height, 0.8*squareSize, 0.02*height, 10)
@@ -144,7 +144,7 @@ function draw(){
       if(lives == i){
         fill(100, 0, 0)
       }
-      rect((0.4+0.065*i)*squareSize, 0.87*height, 0.065*squareSize, 0.03*height, 10)
+      rect((0.4+0.065*i)*squareSize, 0.86*height, 0.065*squareSize, 0.03*height, 10)
     }
     for(let i = 0; i<100; i++){
       square[i].draw()
