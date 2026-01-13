@@ -35,7 +35,8 @@ function preload(){
   starI = loadImage("floor-5.png")
 }
 function setup(){
-  coinS.setVolume(0.25)
+  coinS.setVolume(0.5)
+  buzzer.setVolume(1)
   createCanvas(windowWidth, windowHeight)
   squareSize = min(width, height*0.8)
   for(let i = 0; i < 100; i++){
